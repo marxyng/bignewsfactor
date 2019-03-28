@@ -25,6 +25,10 @@ router.get("/about", function(req, res){
 
 
 
+router.get('/contact', function(req, res){
+    res.sendFile("contact.html");
+});
+
 
 
 
